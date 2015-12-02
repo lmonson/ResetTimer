@@ -6,8 +6,9 @@ The service is built on AWS Lambda, API Gateway, and DynamoDB using update expre
 
 ## Why?
 Two reasons:  
-1. To experiment with Lambda update expressions
-2. To solve a specific problem -- coordinate a set of N app servers that are polling for a signal to execute a job by any one of the app servers.  Jobs run every N seconds.
+
+1.  To experiment with Lambda update expressions
+2.  To solve a specific problem -- coordinate a set of N app servers that are polling for a signal to execute a job by any one of the app servers.  Jobs run every N seconds.
 
 See the [documentation](http://blog.prohakr.com/articles/ResetTimer/) for details on it's use.
 
